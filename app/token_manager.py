@@ -10,7 +10,7 @@ from datetime import timedelta
 
 logger = logging.getLogger(__name__)
 
-AUTH_URL = os.getenv("AUTH_URL", "https://jwtxthug.up.railway.app/token") 
+AUTH_URL = os.getenv("AUTH_URL", "https://jwtxthug.up.railway.app/token?uid=3866890996&password=1D521A26D50F96BDA84CE0C5416BD53EF7EFD1EDF53D65243527E5FE3656E9DB") 
 CACHE_DURATION = timedelta(hours=7).seconds
 TOKEN_REFRESH_THRESHOLD = timedelta(hours=6).seconds
 
